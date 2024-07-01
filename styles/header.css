@@ -1,0 +1,9 @@
+.cabeçalho {
+    text-align: center; /* Centraliza o texto do cabeçalho */
+    background-color: #0d8409; /* Adicione uma cor de fundo ao cabeçalho */
+    font-size: 10vw;
+    color: azure;       
+}
+.linha_2{
+    font-size: 07vw;
+}

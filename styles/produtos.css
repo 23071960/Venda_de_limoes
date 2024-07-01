@@ -1,0 +1,69 @@
+.produtos {
+    display: block;
+    font-size: 20px;
+    text-align: left;
+}
+
+.variedades {
+    height: auto; /* Defina a altura do contêiner pai conforme necessário */
+    position: relative; /* Define a posição como relativa para poder posicionar o botão absolutamente */
+    background-color: rgb(5, 36, 5);
+    font-size: 20px;
+    color: azure;  
+    margin-top: 05px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.botao_ir {
+     /* Define o fundo como um gradiente linear que vai de verde a branco, de cima para baixo */
+    background: linear-gradient(to bottom,white ,green);    
+    width: 60%; /* Defina a largura desejada para o botão */
+    margin: 20px auto; /* Define margens automáticas nas laterais para centralizar horizontalmente */
+    font-size: 3vmax; /* Tamanho da fonte */
+    border: 2px solid green; /* Adiciona uma borda verde de 2px */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra cinza */
+    border-radius: 10px; /* Define um raio de 10px para os cantos */
+    padding: 5px; /* Espaçamento interno */
+    text-decoration: none; /* Remove a decoração de texto */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    cursor: pointer; /* Altera o cursor para um ponteiro quando passa sobre o botão */
+    color: rgb(3, 37, 37); /* Cor do texto */
+}
+.limão {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    float: left; /* Coloca a imagem à esquerda */
+    margin-right:05px; /* Adiciona um espaço entre a imagem e o texto da descrição */
+    
+}
+
+input[type="number"] {
+    width: 30px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 15px;
+}
+.descricao {
+    overflow: hidden; /* Garante que a descrição não ultrapasse a imagem */
+}
+
+.conteudo {
+    flex: 1; /* Ocupa todo o espaço disponível */
+}
+
+.info-produto {
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-left: 02px; /* Adiciona um espaço entre a descrição e a quantidade/preço */
+    overflow: hidden; /* Garante que a descrição não ultrapasse a imagem */
+}
+caption {
+    margin-bottom: 10px; /* Ajusta a margem inferior do caption */
+}
+.form-container {
+    display: none;
+    margin-top: 0px;
+  }
+

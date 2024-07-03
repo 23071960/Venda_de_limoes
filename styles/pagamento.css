@@ -14,8 +14,8 @@
 .form-container {
   background-color: white;
     display: none;
-    margin-top: 10px;
-    border: 10px;
+    margin: 10px;
+    border: 20px;
     border-color: blue;
     border-radius: 15px;
     padding:10px;
@@ -33,7 +33,8 @@
     border-color: blue; 
   }
   #qrCode {
-    margin-top: 05px;
+    margin: 10px;
+    width: 50%;
   }
   #codigoPixContainer {
     margin-top: 10px;
@@ -41,9 +42,7 @@
   #copiarCodigoPix {
     cursor: pointer;   
   }
-  #qrCode {
-    margin-top: 10px;
-  }
+ 
   .btn {
     display: inline-block;
     padding: 10px 20px;

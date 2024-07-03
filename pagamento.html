@@ -8,12 +8,9 @@
      <!-- SweetAlert CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 </head>
-<body class="pagamento">
-  <header class="cabeçalho">
-    Lemon Juice<br>
-    <hr>
-    <span class="linha_2">Opções de Pagamento</span> 
-    <hr>
+<body>
+  <header class="cabeçalho">    
+    <span class="linha_2">Opções de Pagamento</span>     
 </header>
 <div class="rol">
     <table id="tabelaSelecionados">
@@ -29,8 +26,9 @@
       </table>
     </div>  
    <hr>
-   <h2>Endereço para entrega</h2>
+   
     <form class="onde">
+      <h2>Endereço para entrega</h2>
       <label for="recebedor">Nome do recebedor:</label><br>
       <input type="text" id="recebedor" name="nomeRecebedor"><br><br>
       <label for="endereco">Endereço para entrega:</label><br>
@@ -78,12 +76,19 @@
       <h3>QR Code:</h3>
       <canvas id="qrCode"></canvas>
     </div>
-  </div>
-  <a href="bye_bye.html">
-    <div class="botao_ir">
-        Finalizar
+  </div>  
+  <br>
+    <div class="caminho">
+      <a href="bye_bye.html">Finalizar</a>        
     </div>
-</a>
+    <footer class="rodape">
+      <span class="texto_contato">
+        <span class="texto_contato"> email:domicio600@gmail.com<br>                      
+      <hr>         
+      <span class="texto_contato"><img src="imagens/whatsapp1.png" class="icone_whats">
+       Whatsapp: (45)98810-5144</span>   
+       <hr>
+  </footer>
     <script src="scripts/lista.js"></script>
     <script src="scripts/pagamento.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

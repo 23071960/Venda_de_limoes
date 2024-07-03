@@ -15,21 +15,6 @@
     padding: 20px;
 }
 
-.botao_ir {
-     /* Define o fundo como um gradiente linear que vai de verde a branco, de cima para baixo */
-    background: linear-gradient(to bottom,white ,green);    
-    width: 60%; /* Defina a largura desejada para o botão */
-    margin: 20px auto; /* Define margens automáticas nas laterais para centralizar horizontalmente */
-    font-size: 3vmax; /* Tamanho da fonte */
-    border: 2px solid green; /* Adiciona uma borda verde de 2px */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra cinza */
-    border-radius: 10px; /* Define um raio de 10px para os cantos */
-    padding: 5px; /* Espaçamento interno */
-    text-decoration: none; /* Remove a decoração de texto */
-    text-align: center; /* Centraliza o texto horizontalmente */
-    cursor: pointer; /* Altera o cursor para um ponteiro quando passa sobre o botão */
-    color: rgb(3, 37, 37); /* Cor do texto */
-}
 .limão {
     width: 100px;
     height: 100px;

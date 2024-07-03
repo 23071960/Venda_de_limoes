@@ -1,5 +1,5 @@
 .rodape {
-    position: fixed; /* Fixa o rodapé na parte inferior da janela do navegador */
+     /*position: fixed; /* Fixa o rodapé na parte inferior da janela do navegador */
     left: 0;
     bottom: 0;
     width: 100%; /* Garante que o rodapé tenha a largura total da página */
@@ -22,5 +22,7 @@
     vertical-align: middle; /* Alinha o texto ao centro verticalmente em relação à imagem */
    
 }
+
+
     
     
